@@ -1,0 +1,40 @@
+# Archivos de Claude Code: no se suben al repositorio
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+.mcp.json
+
+# Build y caches de Gradle (se regeneran al compilar)
+.gradle/
+build/
+**/build/
+.kotlin/
+.cxx/
+.externalNativeBuild/
+captures/
+*.hprof
+
+# Binarios generados (APK, AAB, dex)
+*.apk
+*.aab
+*.ap_
+*.dex
+output.json
+/release/
+
+# Configuración local de la máquina (rutas del SDK, etc.)
+local.properties
+
+# Firmas y claves (nunca subir)
+*.jks
+*.keystore
+keystore.properties
+
+# Estado del IDE (Android Studio / IntelliJ)
+.idea/
+*.iml
+.navigation/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
